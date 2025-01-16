@@ -1,0 +1,1 @@
+This repository demonstrates a common bug in React Native applications where an unhandled exception occurs on Android during JSON parsing when a network request fails. The iOS version works correctly, but the Android version crashes due to a lack of proper error handling. The solution involves adding more robust error handling to prevent the crash.
